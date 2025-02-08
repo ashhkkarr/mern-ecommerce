@@ -52,12 +52,9 @@
   "engines": {
     "node": "16.x"
   },
-  {
   "overrides": {
     "react-swipeable-views": {
       "react": "^18.2.0"
     }
   }
-}
-
 }
