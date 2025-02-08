@@ -167,7 +167,17 @@ export const Checkout = () => {
 
                         <Stack flexDirection={'row'} justifyContent={'flex-start'} alignItems={'center'}>
                             <Radio value={selectedPaymentMethod} name='paymentMethod' checked={selectedPaymentMethod==='CARD'} onChange={()=>setSelectedPaymentMethod('CARD')}/>
-                            <Typography>Card</Typography>
+                            <Typography>
+      Contact us via 
+      <a 
+        href="https://wa.me/1234567890" 
+        target="_blank" 
+        rel="noopener noreferrer"
+      >
+        WhatsApp
+      </a>
+      for more information.
+    </Typography>
                         </Stack>
 
                     </Stack>

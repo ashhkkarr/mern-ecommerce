@@ -261,7 +261,7 @@ export const ProductDetails = () => {
                             </Stack>
 
                             {/* price */}
-                            <Typography variant='h5'>${product?.price}</Typography>
+                            <Typography variant='h5'>Rs {product?.price}</Typography>
                         </Stack>
 
                         {/* description */}
@@ -280,8 +280,8 @@ export const ProductDetails = () => {
 
                             {/* colors */}
                             <Stack flexDirection={'row'} alignItems={'center'} columnGap={is387?'5px':'1rem'} width={'fit-content'}>
-                                <Typography>Colors: </Typography>
-                                <Stack flexDirection={'row'} columnGap={is387?".5rem":".2rem"} >
+                                <Typography> </Typography>
+                                {/* <Stack flexDirection={'row'} columnGap={is387?".5rem":".2rem"} >
                                     {
                                         COLORS.map((color,index)=>(
                                             <div style={{backgroundColor:"white",border:selectedColorIndex===index?`1px solid ${theme.palette.primary.dark}`:"",width:is340?"40px":"50px",height:is340?"40px":"50px",display:"flex",justifyContent:"center",alignItems:"center",borderRadius:"100%",}}>
@@ -289,11 +289,11 @@ export const ProductDetails = () => {
                                             </div>
                                         ))
                                     }
-                                </Stack>
+                                </Stack> */}
                             </Stack>
                             
                             {/* size */}
-                            <Stack flexDirection={'row'} alignItems={'center'} columnGap={is387?'5px':'1rem'} width={'fit-content'}>
+                            {/* <Stack flexDirection={'row'} alignItems={'center'} columnGap={is387?'5px':'1rem'} width={'fit-content'}>
                                 <Typography>Size: </Typography>
                                 <Stack flexDirection={'row'} columnGap={is387?".5rem":"1rem"}>
                                     {
@@ -304,7 +304,7 @@ export const ProductDetails = () => {
                                         ))
                                     }
                                 </Stack>
-                            </Stack>
+                            </Stack> */}
 
                             {/* quantity , add to cart and wishlist */}
                             <Stack flexDirection={"row"} columnGap={is387?".3rem":"1.5rem"} width={'100%'} >
@@ -348,8 +348,8 @@ export const ProductDetails = () => {
                                     <LocalShippingOutlinedIcon/>
                                 </Box>
                                 <Stack>
-                                    <Typography>Free Delivery</Typography>
-                                    <Typography>Enter your postal for delivery availabity</Typography>
+                                    <Typography>Pickup Available</Typography>
+                                    <Typography>No Return Policy</Typography>
                                 </Stack>
                             </Stack>
                             <hr style={{width:"100%"}} />
@@ -358,8 +358,18 @@ export const ProductDetails = () => {
                                     <CachedOutlinedIcon/>
                                 </Box>
                                 <Stack>
-                                    <Typography>Return Delivery</Typography>
-                                    <Typography>Free 30 Days Delivery Returns</Typography>
+                                    <Typography></Typography>
+                                    <Typography>
+      Contact us via  
+      <a 
+        href="https://wa.me/9747529344" 
+        target="_blank" 
+        rel="noopener noreferrer"
+      >
+         -WhatsApp-
+      </a>
+      for more information.
+    </Typography>
                                 </Stack>
                             </Stack>
 

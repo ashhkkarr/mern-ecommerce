@@ -72,8 +72,8 @@ export const Login = () => {
               <Stack flexDirection={'row'} justifyContent={'center'} alignItems={'center'}>
 
                 <Stack rowGap={'.4rem'}>
-                  <Typography variant='h2' sx={{wordBreak:"break-word"}} fontWeight={600}>Mern Shop</Typography>
-                  <Typography alignSelf={'flex-end'} color={'GrayText'} variant='body2'>- Shop Anything</Typography>
+                  <Typography variant='h2' sx={{wordBreak:"break-word"}} fontWeight={600}>Dessert Dust</Typography>
+                  <Typography alignSelf={'flex-end'} color={'GrayText'} variant='body2'>- A Sprinkle of Sweetness in Every Bite!!</Typography>
                 </Stack>
 
               </Stack>

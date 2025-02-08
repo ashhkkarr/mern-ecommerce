@@ -47,6 +47,6 @@ server.get("/",(req,res)=>{
     res.status(200).json({message:'running'})
 })
 
-server.listen(8000,()=>{
+server.listen(process.env.PORT || 8000,()=>{
     console.log('server [STARTED] ~ http://localhost:8000');
 })

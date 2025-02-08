@@ -190,7 +190,7 @@ export const ProductList = () => {
             <Stack mb={'5rem'}  sx={{scrollBehavior:"smooth",overflowY:"scroll"}}>
 
                     
-                        <Typography variant='h4'>New Arrivals</Typography>
+                        <Typography variant='h4'>Filter By</Typography>
 
 
                             <IconButton onClick={handleFilterClose} style={{position:"absolute",top:15,right:15}}>
@@ -200,13 +200,7 @@ export const ProductList = () => {
                             </IconButton>
 
 
-                    <Stack rowGap={2} mt={4} >
-                        <Typography sx={{cursor:"pointer"}} variant='body2'>Totes</Typography>
-                        <Typography sx={{cursor:"pointer"}} variant='body2'>Backpacks</Typography>
-                        <Typography sx={{cursor:"pointer"}} variant='body2'>Travel Bags</Typography>
-                        <Typography sx={{cursor:"pointer"}} variant='body2'>Hip Bags</Typography>
-                        <Typography sx={{cursor:"pointer"}} variant='body2'>Laptop Sleeves</Typography>
-                    </Stack>
+                    
 
                     {/* brand filters */}
                     <Stack mt={2}>
